@@ -12,7 +12,7 @@ opts_chunk$set(echo = TRUE)
 ### Read data
 
 ```r
-file <- "D:\\KF_Programmieren\\R\\Coursera_Reproducible_research\\activity.csv"
+file <- "D:\\KF_Programmieren\\R\\C_reproducible_research\\peer_assessment_no1\\activity.csv"
 dataOrig <- read.csv(file = file, header = TRUE)
 data <- dataOrig
 ```
@@ -132,4 +132,4 @@ axis(1)
 ![plot of chunk weekdays](figure/weekdays.png) 
 
 
-==> Activity on the weekend is more evenly distributed.
+==> Activity on the weekend is more evenly distributed throughout the day.
